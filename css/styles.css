@@ -8,6 +8,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    background-color: black;
 }
 
 .container {
@@ -222,6 +223,36 @@
 }
 
 
+/* run section  */
+.run_containr{
+
+}
+.run_title {
+
+}
+.run_title >h1{
+
+}
+.run_title p{
+
+}
+
+
+.run_img{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -307,8 +338,10 @@
         padding: 0px;
     }
 
-
-
+/* habbit form here */
+.habits_card_container{
+    grid-template-columns: repeat(1,1fr);
+}
 
 
 
