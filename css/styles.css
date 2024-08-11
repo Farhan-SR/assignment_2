@@ -13,7 +13,7 @@
 .container {
     margin: 0 auto;
     width: 70%;
-    height: 715px;
+    height: auto;
     background-color: rgb(7, 7, 7);
 }
 
@@ -61,27 +61,6 @@
     display: none;
 }
 
-/* responsive only for navbar */
-@media screen and (max-width: 425px) {
-    .container {
-        width: 100%;
-        padding-top: 20px;
-        gap: 10px;
-    }
-
-    .nav_items {
-        display: none;
-
-    }
-
-    .bars {
-        display: block;
-        color: white;
-        font-size: 2rem;
-        align-items: center;
-        margin-top: 10px;
-    }
-}
 
 /* banner stats from here */
 .banner {
@@ -139,6 +118,7 @@
 }
 
 .h_img {
+    position: relative;
     /* border: 1px solid white; */
     padding-left: 25%;
 }
@@ -148,9 +128,10 @@
 
 /* floting icon */
 .icon {
-    position: relative;
-    top: -200px;
-    left: 680px;
+    position: absolute;
+    top: 390px;
+    left: 30px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,6 +140,11 @@
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
 
+}
+
+.i500 {
+    top: 160px;
+    left: 380px;
 }
 
 .circle {
@@ -185,7 +171,115 @@
     font-weight: 400;
 }
 
+/* habits from here */
+.habits{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.habit_h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+
+}
+.habit_h1 >p{
+    font-size: 1rem;
+    color: #ffffffa2;
+}
+.habits_card_container{
+
+}
+
+.habit_card{
+
+}
+.card_img{
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    /* responsive only for navbar */
+    .container {
+        width: 100%;
+        padding-top: 20px;
+        gap: 10px;
+    }
+
+    .nav_items {
+        display: none;
+
+    }
+
+    .bars {
+        display: block;
+        color: white;
+        font-size: 2rem;
+        align-items: center;
+        margin-top: 10px;
+    }
+/* for banner */
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.title {
+
+    margin-top: 40px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.shape {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.title_des {
+    color: rgba(255, 255, 255, .5);
+    width: 80%;
+    margin-bottom: 25px;
+}
+.btn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.btn_join ,.btn_download{
+   
+    padding: 12px;
+}
+.icon {
+    
+    top: 280px;
+    left: 0px;
+}
 .i500 {
-    top: -580px;
-    left: 1050px;
+    top: 50px;
+    left: 180px;
+    
+}
+.h_img{
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
