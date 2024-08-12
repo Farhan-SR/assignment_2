@@ -508,6 +508,103 @@ input::placeholder {
     color: #888888;
 }
 
+/* ...member ship section  */
+.heading {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.heading>h1 {
+    font-size: 3rem;
+    font-weight: 1000;
+
+}
+
+.heading>p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.527);
+
+}
+
+/* card  */
+.card_con {
+    margin: 30px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.card {
+    /* border: #ffffff solid 1px; */
+    color: white;
+    width: auto;
+    height: auto;
+    background-color: #ffffff23;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card>h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: italic;
+    padding: 5px;
+}
+
+.card>p {
+    color: #ffffffc7;
+    padding: 10px;
+}
+
+.card>h1 {
+    font-size: 4.5rem;
+    color: #E6533C;
+    text-align: center;
+}
+
+.card hr {
+    width: 80%;
+    margin: 5px auto 50px auto;
+}
+
+.card ul li {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.card button {
+
+    margin: 120px 10px 10px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -649,18 +746,30 @@ input::placeholder {
         grid-template-columns: repeat(1, 1fr);
     }
 
-/* bmi section  */
-.bmi_container{
-    grid-template-columns: repeat(1,1fr);
-}
-.bmi_title h1{
-    font-size: 2rem;
-   
-}
-.bmi_title{
-    margin-left: 60px;
-    width: 80%;
+    /* bmi section  */
+    .bmi_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bmi_title h1 {
+        font-size: 2rem;
+
+    }
+
+    .bmi_title {
+        margin-left: 60px;
+        width: 80%;
 
 
-}
+    }
+
+    /* member shiop  */
+    .card_con {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+
 }
