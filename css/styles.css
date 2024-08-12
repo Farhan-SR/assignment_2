@@ -70,12 +70,8 @@
     gap: 20px;
 }
 
-.h_title {
-    /* border: 1px solid white; */
-}
 
 .title {
-
     margin-top: 96px;
     color: white;
     font-size: 4rem;
@@ -83,9 +79,10 @@
 }
 
 .shape {
+    font-family: 'Miama', sans-serif;
     font-style: italic;
-    font-weight: 100;
-    font-size: 4rem;
+    font-weight: 400;
+    font-size: 3rem;
 }
 
 .title_des {
@@ -94,10 +91,7 @@
     margin-bottom: 25px;
 }
 
-.btn {}
-
 .btn_join {
-
     font-size: 1.2rem;
     color: white;
     padding: 10px 30px;
@@ -108,7 +102,6 @@
 }
 
 .btn_download {
-
     font-size: 1.2rem;
     color: white;
     padding: 10px 30px;
@@ -120,19 +113,14 @@
 
 .h_img {
     position: relative;
-    /* border: 1px solid white; */
     padding-left: 25%;
 }
-
-
-
 
 /* floting icon */
 .icon {
     position: absolute;
     top: 390px;
     left: 30px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,7 +128,6 @@
     width: 200px;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
-
 }
 
 .i500 {
@@ -148,11 +135,9 @@
     left: 380px;
 }
 
-.circle {
-    background-color: #E6533C;
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
+.circle img {
+    width: 64px;
+    height: 64px;
 }
 
 .fonts {
@@ -238,8 +223,6 @@
     display: flex;
     border-radius: 15px;
     justify-content: space-between;
-
-
 }
 
 .run_title {
@@ -252,7 +235,6 @@
     font-weight: 1000;
     font-size: 3.5rem;
     padding-bottom: 25px;
-
 }
 
 .run_title p {
@@ -278,7 +260,6 @@
 .meet_h1 {
     width: 70%;
     margin: 0 auto;
-
 }
 
 .test {
@@ -313,7 +294,6 @@
 .trainer_info {
     position: relative;
     padding: 15px;
-
 }
 
 .trainer_info>img {
@@ -326,7 +306,6 @@
     position: absolute;
     top: 210px;
     left: 30px;
-
 }
 
 .t_name>h3 {
@@ -348,15 +327,12 @@
     color: white;
 }
 
-.f_logo p {}
-
 .f_logo>p {
     padding: 25px;
 }
 
 
 .f_div {
-
     width: 80%;
     margin: 10px auto 100px auto;
     color: rgba(255, 255, 255, 0.623);
@@ -377,14 +353,11 @@
     list-style-type: none;
     padding-left: 20px;
     padding-top: 10px;
-
 }
 
 hr {
-
     background-color: #ffffff17;
 }
-
 
 .reserved {
     padding: 30px;
@@ -395,13 +368,11 @@ hr {
 
 
 /* bmi section  */
-
 .bmi_title {
     color: white;
     width: 40%;
     margin: 0 auto;
     text-align: left;
-
 }
 
 .bmi_title>h1 {
@@ -419,14 +390,12 @@ hr {
 
 
 /* bmi chart */
-
 .bmi_container {
     background-color: #222222;
     width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
 }
 
 .bmi_chart {
@@ -439,8 +408,6 @@ hr {
     font-weight: 800;
     margin-bottom: 30px;
 }
-
-.bmi_cal {}
 
 .bmi_table {
     width: 70%;
@@ -461,9 +428,6 @@ td {
 
 .bmi_cal {
     margin: 40px;
-
-
-
 }
 
 .for_in {
@@ -519,7 +483,6 @@ input::placeholder {
 .heading>h1 {
     font-size: 3rem;
     font-weight: 1000;
-
 }
 
 .heading>p {
@@ -579,34 +542,8 @@ input::placeholder {
 }
 
 .card button {
-
     margin: 120px 10px 10px 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 576px) {
@@ -615,7 +552,7 @@ input::placeholder {
     .container {
         width: 100%;
         padding-top: 20px;
-        gap: 10px;
+        /* gap: 10px; */
     }
 
     .nav_items {
@@ -696,7 +633,7 @@ input::placeholder {
     .run_containr {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        /* margin: 0 auto; */
+
         align-items: center;
     }
 
@@ -707,7 +644,6 @@ input::placeholder {
     .run_title {
         padding: 30px;
         width: 70%;
-        /* border: #E6533C solid 1px; */
     }
 
     .run_title>p {
@@ -759,8 +695,14 @@ input::placeholder {
     .bmi_title {
         margin-left: 60px;
         width: 80%;
+    }
 
+    .bmi_chart h3 {
+        font-size: 1.5rem;
+    }
 
+    .bmi_table {
+        width: 100%;
     }
 
     /* member shiop  */
