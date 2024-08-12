@@ -280,7 +280,8 @@
     margin: 0 auto;
 
 }
-.test{
+
+.test {
     width: 70%;
 }
 
@@ -343,48 +344,49 @@
 
 /* fotoer  */
 
-.footer{
+.footer {
     color: white;
 }
-.f_logo p {
-    
-}
-.f_logo > p{
+
+.f_logo p {}
+
+.f_logo>p {
     padding: 25px;
 }
 
 
-.f_div{
+.f_div {
 
     width: 80%;
     margin: 10px auto 100px auto;
     color: rgba(255, 255, 255, 0.623);
     display: grid;
-    grid-template-columns: repeat(1,2fr) repeat(2,1fr);
+    grid-template-columns: repeat(1, 2fr) repeat(2, 1fr);
     gap: 50px;
     font-weight: 400;
 }
 
-.get_started  h2{
-font-size: 2rem;
-color: white;
-padding: 25px;
+.get_started h2 {
+    font-size: 2rem;
+    color: white;
+    padding: 25px;
 }
 
-.get_started ul li{
-font-size: 1.2rem;
-list-style-type: none;
-padding-left: 20px;
-padding-top: 10px;
+.get_started ul li {
+    font-size: 1.2rem;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 10px;
 
 }
-hr{
+
+hr {
 
     background-color: #ffffff17;
 }
 
 
-.reserved{
+.reserved {
     padding: 30px;
     color: rgba(255, 255, 255, 0.603);
     text-align: center;
@@ -392,10 +394,119 @@ hr{
 
 
 
+/* bmi section  */
+
+.bmi_title {
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.bmi_title>h1 {
+    font-size: 4rem;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+
+.bmi_title>p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ffffff7e;
+    margin-bottom: 30px;
+}
+
+
+/* bmi chart */
+
+.bmi_container {
+    background-color: #222222;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.bmi_chart {
+    margin: 40px;
+}
+
+.bmi_chart h3 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.bmi_cal {}
+
+.bmi_table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+#bmi_id {
+    font-weight: 400;
+    color: white;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddddddab;
+    color: #ffffff75;
+}
+
+.bmi_cal {
+    margin: 40px;
 
 
 
+}
 
+.for_in {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bmi_cal h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.bmi_cal p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.bmi_from input,
+select {
+    width: 75%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff7e;
+    background-color: #ffffff38;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+#selec {
+    width: 90%;
+}
+
+#selec2 {
+    width: 95%;
+}
+
+input::placeholder {
+    color: #888888;
+}
 
 
 
@@ -523,8 +634,8 @@ hr{
     }
 
     /* <!-- meet our teem  --> */
-    .meet_trainer{
-        grid-template-columns: repeat(1,1fr);
+    .meet_trainer {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .meet_h1>h1 {
@@ -533,12 +644,23 @@ hr{
         margin: 0 auto;
     }
 
-/* footer  */
-.f_div{
+    /* footer  */
+    .f_div {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+/* bmi section  */
+.bmi_container{
     grid-template-columns: repeat(1,1fr);
 }
+.bmi_title h1{
+    font-size: 2rem;
+   
+}
+.bmi_title{
+    margin-left: 60px;
+    width: 80%;
 
 
-
-
+}
 }
