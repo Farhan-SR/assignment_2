@@ -262,9 +262,10 @@
     padding-bottom: 25px;
 }
 
-.run_btn{
+.run_btn {
     padding: 15px 60px;
 }
+
 .run_img img {
     width: 350px;
     height: 300px;
@@ -274,14 +275,68 @@
 
 }
 
-.run_img {}
+/* meet trainer  */
+.meet_h1 {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.meet_h1>h1 {
+    font-size: 4rem;
+    font-weight: 1000;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.meet_h1>p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.541);
+    text-align: center;
+}
 
 
+.meet_trainer {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.178);
+    border-radius: 15px;
+}
 
+.trainer_info {
+    position: relative;
+    padding: 15px;
 
+}
 
+.trainer_info>img {
+    width: 316px;
+    height: 262px;
+    border-radius: 15px;
+}
 
+.t_name {
+    position: absolute;
+    top: 210px;
+    left: 30px;
 
+}
+
+.t_name>h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.t_name>p {
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 
@@ -375,38 +430,58 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-/* run section */
-.run_containr{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    /* margin: 0 auto; */
-    align-items: center;
-}
-.run_title >h1{
-    font-size: 2rem;
-}
-.run_title {
-    padding: 30px;
-    width: 70%;
-    /* border: #E6533C solid 1px; */
-}
-.run_title > p {
-    color: rgba(255, 255, 255, 0.473);
-    font-weight: 200;
-    padding-bottom: 25px;
-    width: 100%;
-}
-.run_btn{
-    padding: 15px 80px;
+    /* run section */
+    .run_containr {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* margin: 0 auto; */
+        align-items: center;
+    }
 
-}
-.run_img img {
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    border-radius: 10%;
-    object-fit: cover;
-}
+    .run_title>h1 {
+        font-size: 2rem;
+    }
+
+    .run_title {
+        padding: 30px;
+        width: 70%;
+        /* border: #E6533C solid 1px; */
+    }
+
+    .run_title>p {
+        color: rgba(255, 255, 255, 0.473);
+        font-weight: 200;
+        padding-bottom: 25px;
+        width: 100%;
+    }
+
+    .run_btn {
+        padding: 15px 80px;
+
+    }
+
+    .run_img img {
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+        border-radius: 10%;
+        object-fit: cover;
+    }
+
+    /* <!-- meet our teem  --> */
+    .meet_trainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .meet_h1>h1 {
+        font-size: 3rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+
 
 
 
