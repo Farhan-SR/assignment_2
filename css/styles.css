@@ -8,7 +8,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    background-color: black;
+    background-color: rgb(7, 7, 7);
 }
 
 .container {
@@ -151,7 +151,6 @@
 .circle {
     background-color: #E6533C;
     border-radius: 50px;
-    /* border: 1px solid black; */
     width: 50px;
     height: 50px;
 }
@@ -271,7 +270,7 @@
     height: 300px;
     padding: 20px;
     border-radius: 10%;
-    object-fit: cover;
+    margin-top: 20px;
 
 }
 
@@ -280,6 +279,9 @@
     width: 70%;
     margin: 0 auto;
 
+}
+.test{
+    width: 70%;
 }
 
 .meet_h1>h1 {
@@ -339,6 +341,54 @@
 }
 
 
+/* fotoer  */
+
+.footer{
+    color: white;
+}
+.f_logo p {
+    
+}
+.f_logo > p{
+    padding: 25px;
+}
+
+
+.f_div{
+
+    width: 80%;
+    margin: 10px auto 100px auto;
+    color: rgba(255, 255, 255, 0.623);
+    display: grid;
+    grid-template-columns: repeat(1,2fr) repeat(2,1fr);
+    gap: 50px;
+    font-weight: 400;
+}
+
+.get_started  h2{
+font-size: 2rem;
+color: white;
+padding: 25px;
+}
+
+.get_started ul li{
+font-size: 1.2rem;
+list-style-type: none;
+padding-left: 20px;
+padding-top: 10px;
+
+}
+hr{
+
+    background-color: #ffffff17;
+}
+
+
+.reserved{
+    padding: 30px;
+    color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+}
 
 
 
@@ -347,7 +397,11 @@
 
 
 
-@media screen and (max-width: 425px) {
+
+
+
+
+@media screen and (max-width: 576px) {
 
     /* responsive only for navbar */
     .container {
@@ -479,8 +533,10 @@
         margin: 0 auto;
     }
 
-
-
+/* footer  */
+.f_div{
+    grid-template-columns: repeat(1,1fr);
+}
 
 
 
